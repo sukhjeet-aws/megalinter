@@ -1,0 +1,6 @@
+projectKey=megalinter
+serverUrl=http://44.212.68.235:9000
+serverVersion=25.10.0.114319
+dashboardUrl=http://44.212.68.235:9000/dashboard?id=megalinter
+ceTaskId=c2c13415-d8f0-4593-9ebb-9c5b2ac01017
+ceTaskUrl=http://44.212.68.235:9000/api/ce/task?id=c2c13415-d8f0-4593-9ebb-9c5b2ac01017
