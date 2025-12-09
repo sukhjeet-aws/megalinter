@@ -774,10 +774,10 @@
     p-queue "^8.0.1"
     text-table "^0.2.0"
 
-"@yeoman/conflicter@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@yeoman/conflicter/-/conflicter-3.0.0.tgz#db160ab1598a90f944fd73bf32ec08303fe804b9"
-  integrity sha512-3NYmJGeWVj5DSXNLdsbqoOkEduzwg/6HFWtCdkUTi3kis/d9M/O7dYSSNZrzGTXPLpGJC9nU/PK2BHWcVXP3hw==
+"@yeoman/conflicter@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@yeoman/conflicter/-/conflicter-4.0.0.tgz#4e27644b68ed11827d04bb36b469c68423b6e5ef"
+  integrity sha512-h/PPw+XR9URrLdKb90aeiIAbnl8ToMvVJoPqO0KHldPBF+T60HUJlN+oDBfKugqYPsuTKASniPUrxagwtcdwgw==
   dependencies:
     "@yeoman/transform" "^2.1.0"
     binary-extensions "^3.1.0"
@@ -1759,7 +1759,7 @@ globals@^14.0.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-14.0.0.tgz#898d7413c29babcf6bafe56fcadded858ada724e"
   integrity sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==
 
-globby@^14.0.2, globby@^14.1.0:
+globby@^14.0.2:
   version "14.1.0"
   resolved "https://registry.yarnpkg.com/globby/-/globby-14.1.0.tgz#138b78e77cf5a8d794e327b15dce80bf1fb0a73e"
   integrity sha512-0Ia46fDOaT7k4og1PDW4YbodWWr3scS2vAr2lTbsplOt2WkKp0vQbkI9wKis/T5LV/dqPjO3bpS/z6GTJB82LA==
@@ -1770,6 +1770,18 @@ globby@^14.0.2, globby@^14.1.0:
     path-type "^6.0.0"
     slash "^5.1.0"
     unicorn-magic "^0.3.0"
+
+globby@^16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-16.0.0.tgz#45a133d4e70fcfdd6e33b3166d490c99c9298f5a"
+  integrity sha512-ejy4TJFga99yW6Q0uhM3pFawKWZmtZzZD/v/GwI5+9bCV5Ew+D2pSND6W7fUes5UykqSsJkUfxFVdRh7Q1+P3Q==
+  dependencies:
+    "@sindresorhus/merge-streams" "^4.0.0"
+    fast-glob "^3.3.3"
+    ignore "^7.0.5"
+    is-path-inside "^4.0.0"
+    slash "^5.1.0"
+    unicorn-magic "^0.4.0"
 
 gopd@^1.0.1, gopd@^1.2.0:
   version "1.2.0"
@@ -1898,7 +1910,7 @@ ignore@^5.2.0:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.3.2.tgz#3cd40e729f3643fd87cb04e50bf0eb722bc596f5"
   integrity sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==
 
-ignore@^7.0.3:
+ignore@^7.0.3, ignore@^7.0.5:
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.5.tgz#4cb5f6cd7d4c7ab0365738c7aea888baa6d7efd9"
   integrity sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==
@@ -2029,6 +2041,11 @@ is-path-inside@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/is-path-inside/-/is-path-inside-3.0.3.tgz#d231362e53a07ff2b0e0ea7fed049161ffd16283"
   integrity sha512-Fd4gABb+ycGAmKou8eMftCupSir5lRxqf4aD/vd0cD2qc4HL07OjCeuHMr8Ro4CoMaeCKDB0/ECBOVWjTwUvPQ==
+
+is-path-inside@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/is-path-inside/-/is-path-inside-4.0.0.tgz#805aeb62c47c1b12fc3fd13bfb3ed1e7430071db"
+  integrity sha512-lJJV/5dYS+RcL8uQdBDW9c9uWFLLBNRyFhnAKXw5tVqLlKZ4RMGZKv+YQ/IA3OhD+RpbJa1LLFM1FQPGyIXvOA==
 
 is-plain-obj@^2.1.0:
   version "2.1.0"
@@ -3508,6 +3525,11 @@ unicorn-magic@^0.3.0:
   resolved "https://registry.yarnpkg.com/unicorn-magic/-/unicorn-magic-0.3.0.tgz#4efd45c85a69e0dd576d25532fbfa22aa5c8a104"
   integrity sha512-+QBBXBCvifc56fsbuxZQ6Sic3wqqc3WWaqxs58gvJrcOuN83HGTCwz3oS5phzU9LthRNE9VrJCFCLUgHeeFnfA==
 
+unicorn-magic@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/unicorn-magic/-/unicorn-magic-0.4.0.tgz#78c6a090fd6d07abd2468b83b385603e00dfdb24"
+  integrity sha512-wH590V9VNgYH9g3lH9wWjTrUoKsjLF6sGLjhR4sH1LWpLmCOH0Zf7PukhDA8BiS7KHe4oPNkcTHqYkj7SOGUOw==
+
 unique-filename@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/unique-filename/-/unique-filename-4.0.0.tgz#a06534d370e7c977a939cd1d11f7f0ab8f1fed13"
@@ -3747,13 +3769,13 @@ yargs@^17.7.2:
     y18n "^5.0.5"
     yargs-parser "^21.1.1"
 
-yeoman-environment@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/yeoman-environment/-/yeoman-environment-5.0.0.tgz#29a3e717ba0345d6766d3fb7df0c0046023b4b4c"
-  integrity sha512-if2qGfG2Lzmgu/jY0DIVTjW6yUXuKZTUsHeq+ifW+u4FbJr/gVPRy0ArO7LctUhBJxyDZvlDADnbPuTfZNpQiA==
+yeoman-environment@^5.1.0:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/yeoman-environment/-/yeoman-environment-5.1.1.tgz#b318b5d5951d8ddd253602efcdfb1537f4181710"
+  integrity sha512-g4ichW3SBdi0IZff7Fd8tWXwF0jHsNFfgYTi9/bqDaEr9OSL5OTKupFa9XikOcVhkeCMQysyRqXzgLK/VH/JgA==
   dependencies:
     "@yeoman/adapter" "^3.1.0"
-    "@yeoman/conflicter" "^3.0.0"
+    "@yeoman/conflicter" "^4.0.0"
     "@yeoman/namespace" "^1.0.1"
     "@yeoman/transform" "^2.1.0"
     "@yeoman/types" "^1.8.0"
@@ -3763,7 +3785,7 @@ yeoman-environment@^5.0.0:
     debug "^4.4.1"
     execa "^9.6.0"
     fly-import "^1.0.0"
-    globby "^14.1.0"
+    globby "^16.0.0"
     grouped-queue "^2.1.0"
     locate-path "^8.0.0"
     lodash-es "^4.17.21"
